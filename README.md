@@ -1,10 +1,15 @@
-# learn-calculator
+# Calculator DOM Exercise
 
-Create a Calculator using JS
+Create a Calculator using HTML/CSS/JS
 
 1. Add click handlers to the number buttons
+   - Create an array of the numbers clicked, in order
 1. Add click handlers to the calculation buttons
-1. Add on click handler to the 'equals' button
+   - Create an array of the operators
+   - Don't let a user start with an operator
+   - Don't let a user type multiple operators (i.e. you can't type '--' or '++' or "\*+")
+1. Add click handler to the 'equals' button
+1. The 'equals' button needs to trigger a few events (**NOTE:** These will be functions)
    - Loop through the array of numbers (**NOTE:** These are currently strings)
    - Convert the strings to integers
    - Write a new array of integers
