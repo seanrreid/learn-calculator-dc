@@ -1,0 +1,127 @@
+body {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+p {
+    display: block;
+    margin: 2em auto;
+}
+
+.u-center {
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 4% auto;
+    width: 100%;
+}
+
+.calculator {
+    border-radius: 1px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    width: 29rem;
+}
+
+.input {
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    font-size: 2.5rem;
+    height: 60px;
+    margin-right: 6px;
+    overflow-x: auto;
+    padding-right: 1rem;
+    padding-top: 10px;
+    text-align: right;
+    transition: all .2s ease-in-out;
+}
+
+.input:hover {
+    border: 1px solid #bbb;
+    -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.operators div {
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 1px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.operators div:hover {
+    background-color: #ddd;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+}
+
+.operators div:active {
+    font-weight: bold;
+}
+
+.leftPanel {
+    display: inline-block;
+}
+
+.numbers div {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numbers div:hover {
+    background-color: #f1f1f1;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #bbb;
+}
+
+.numbers div:active {
+    font-weight: bold;
+}
+
+.equal {
+    display: inline-block;
+    border: 1px solid #3079ED;
+    border-radius: 1px;
+    width: 17%;
+    text-align: center;
+    padding: 127px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #4d90fe;
+    transition: all .2s ease-in-out;
+}
+
+.equal:hover {
+    background-color: #307CF9;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #1857BB;
+}
+
+.equal:active {
+    font-weight: bold;
+}
